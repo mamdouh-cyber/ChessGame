@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="Style.Css">
+</head>
+<body>
+    <div id="app">
+        <h1>Chess Game</h1>
+        <div id="chess-container">
+            <div id="chessboard"></div>
+            <div id="sidebar">
+                <div id="turn-indicator">Turn: <span id="current-turn">White</span></div>
+                <button id="reset-btn">Reset Game</button>
+                <button id="theme-toggle-btn">Switch to Light Mode</button>
+                <div id="status"></div>
+                <div id="move-log-container">
+                    <h2>Moves</h2>
+                    <ol id="move-log"></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Script.Js"></script>
+</body>
+</html>
